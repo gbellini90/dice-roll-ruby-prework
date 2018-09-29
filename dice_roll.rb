@@ -7,7 +7,7 @@
 array=[1,2,3,4,5,6]
 
 def roll(array)
- return array[rand(array.count)]
+ puts array[rand(array.count)]
 end
 
 
