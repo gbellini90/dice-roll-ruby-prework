@@ -2,12 +2,9 @@
 
 # Feel free to google "how to generate a random number in ruby"
 
-
-
-array=[1,2,3,4,5,6]
-
-def roll(array)
- puts array[rand(array.count)]
+def roll
+  return (1...6)
 end
+
 
 
