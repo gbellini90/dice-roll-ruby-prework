@@ -7,5 +7,5 @@
 array=[1,2,3,4,5,6]
 
 def roll(array)
- return array.random
+ return array.rand
 end
